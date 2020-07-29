@@ -9,6 +9,6 @@ self.addEventListener('activate', function(event) {
 });
 
 self.addEventListener('fetch', function(event) {
-    console.log('Fetching.....', event);
+    // console.log('Fetching.....', event);
     event.respondWith(fetch(event.request));
 });
