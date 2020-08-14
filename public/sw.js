@@ -1,4 +1,4 @@
-var CACHE_STATIC_NAME = 'static-v3'
+var CACHE_STATIC_NAME = 'static-v10'
 var CACHE_DYNAMIC_NAME = 'dynamic'
 
 self.addEventListener('install', function (event) {
@@ -50,7 +50,7 @@ self.addEventListener('fetch', function (event) {
             return res;
           });
         }).catch(function(err) {
-            console.log(err);   
+            console.log(err);
         });
       }
     })
